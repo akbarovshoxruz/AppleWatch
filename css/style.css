@@ -86,12 +86,12 @@ html{
 
 /* Header-contact */
 
-.main-content {
+.main-content-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.lead-cta-contact {
+.lead-cta {
   width: 490px;
   height: 290px;
 }
@@ -102,6 +102,7 @@ html{
   padding-bottom: 30px;
 }
 .lead-cta-info {
+  width: 490px;
   border-left: 3px solid #888;
   padding-left: 37px;
   font-size: 16px;
@@ -112,8 +113,8 @@ html{
 }
 .lead-cta-btn {
   display: inline-block;
-  width:  276px;
-  height: 50px;
+  min-width: 260px;
+  padding: 14px 38px;
   background-color: var(--primary);
   font-size: 18px;
   font-weight: 600;
@@ -195,3 +196,38 @@ html{
 .lined-link:hover::before{
   width: 60px;
 }
+
+/* Promo */
+
+.promo{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.promo-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Runners */
+
+.runners{
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background: url(../img/peopleRun.jpg) no-repeat center center / cover fixed;
+}
+
+.runners-lead-cta{
+  margin-left: auto;
+}
+
+.runners-lead-cta-title{
+  color: #fff;
+}
+
+.runners-lead-cta-info{
+  color: #fff;
+  border-color: #fff;
+}
+
