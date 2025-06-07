@@ -210,6 +210,11 @@ html{
   justify-content: space-between;
 }
 
+.promo-img{
+  width: 400px;
+  height: 600px;
+}
+
 /* Runners */
 
 .runners{
